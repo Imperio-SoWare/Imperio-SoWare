@@ -76,26 +76,6 @@ border: 3px;
 border-style:solid;
 line-height:1;
 }
-
-aside {
-display: table-cell;
-vertical-align: top;
-background: #efe5d0 url(C:\Users\miguel\Desktop\imagenes4\background.gif) bottom right;
-font-size: 100%;
-padding: 5px;
-}
-
-
-section#drinks{
-display: table-cell;
-vertical-align: top;
-background: #efe5d0 ;
-font-size: 105%;
-	font-size: 105%;
-    padding: 30px;
-}
-
-
 #footer {
 background-color: #111111;
 color: #efe5d0;
@@ -112,53 +92,11 @@ color: #954b4b;
 font-style: normal;
 
 }
-
-.slogan {
-color: #954b4b;
-
-}
-
-.beanheading {
-text-align: center;
-line-height: 1.8em;
-
-}
-
 a;link {
 color: #b76666;
 text-decoration: none;
 border-bottom: thin dotted #b76666;
 
-}
-
-
-
-#allcontent{
-width: 800px;
-padding-top: 5px;
-padding-bottom: 5px;
-background-color: #675c47;
-
-}
-
-#das{
-background: #efe5d0;
-vertical-align: top;
-font-size: 105%;
-padding: 15px;
-}
-
-div#talecontainer{
-	display: table;
-	border-spacing: 10px;
-} 
-div#talerow{
-	display: table;
-	
-} 
-
-#headerslogo{
-	float: right;
 }
 #headerlogo{
 
@@ -169,19 +107,6 @@ div#talerow{
 	border: none;
 
 }
-
-#cupo{
-	position: fixed;
-	top: 350px;
-	left: -90px;
-}
-#cupo a img{
-border: none;	
-}
-
-
-
-
 #no{
 	font-size: 600%; 
 	color: white;
@@ -200,48 +125,6 @@ border: none;
 	left: 180px;
 	font-family: dora;
 	}
-}
-
-#nom{
-	font-size: 125%;
-	color: white;
-	font-family: shaded.ttf;
-	position: absolute;
-	top: 103px;
-	left: 550px;
-}
-
-#ser{
-color: black;
-border-bottom:none;
-font-weight:bold;
-}
-
-#imagen{
-	
-}
-
-#im1{
-	
-    position: center;
-    padding: 5px 90px 30px 170px;
-	
-}
-
-#im4{
-	
-    position: center;
-    padding: 5px 5px 5px 5px;
-	
-}
-#tele{
-
-}
-#correo{
-
-}
-#tele{
-	
 }
 
 @font-face{
@@ -390,17 +273,17 @@ tbody tr td a:hover{
 }
 @media(max-width: 768px){
 	#headerrr{
-    width: 120px;
+    width: 100px;
     height: 20px;
     background: black;
     padding: 1px;
     position: relative;
-    left: 60%;
+    left: 50%;
 
 }
 
 #input-search{
-    width: 130px;
+    width: 100px;
     height: 20px;
     font-size: 20px;
     text-indent: 10px;
