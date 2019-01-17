@@ -273,7 +273,7 @@ tbody tr td a:hover{
 }
 @media(max-width: 768px){
 	#headerrr{
-    width: 100px;
+    width: 120px;
     height: 20px;
     background: black;
     padding: 1px;
@@ -283,7 +283,7 @@ tbody tr td a:hover{
 }
 
 #input-search{
-    width: 100px;
+    width: 120px;
     height: 20px;
     font-size: 20px;
     text-indent: 10px;
