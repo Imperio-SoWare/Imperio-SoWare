@@ -1,0 +1,234 @@
+body {
+background-color: white;
+font-style: italic;
+	font-family:Georgia, "Times New Roman", Times, serif;
+font-size: small;
+margin: 0px;
+
+}
+
+#header {
+background-color: DarkSlateGray;
+height: 150px;
+}
+
+section#main {
+vertical-align: top;
+background: white ;
+font-size: 90%;
+padding: 10px;
+margin: 20px 70px 70px 70px;
+}
+
+aside {
+display: table-cell;
+vertical-align: top;
+background: #efe5d0 url(C:\Users\miguel\Desktop\imagenes4\background.gif) bottom right;
+font-size: 100%;
+padding: 5px;
+}
+
+
+section#drinks{
+display: table-cell;
+vertical-align: top;
+background: #efe5d0 ;
+font-size: 105%;
+	font-size: 105%;
+    padding: 30px;
+}
+
+#footer {
+background-color: #111111;
+color: #efe5d0;
+text-align: center;
+padding: 30px;
+font-size: 100%;
+margin: 100px 0px 0px 0px;
+}
+
+h1 {
+font-size: 150%;
+color: #954b4b;
+}
+
+.slogan {
+color: #954b4b;
+
+}
+
+.beanheading {
+text-align: center;
+line-height: 1.8em;
+
+}
+
+a;link {
+color: #b76666;
+text-decoration: none;
+border-bottom: thin dotted #b76666;
+
+}
+
+a:visited {
+color: #675c47;
+text-decoration: none;
+border-bottom: thin dotted #675c47;
+}
+
+#allcontent{
+width: 800px;
+padding-top: 5px;
+padding-bottom: 5px;
+background-color: #675c47;
+
+}
+
+#das{
+background: #efe5d0;
+vertical-align: top;
+font-size: 105%;
+padding: 15px;
+}
+
+div#talecontainer{
+	display: table;
+	border-spacing: 10px;
+} 
+div#talerow{
+	display: table;
+	
+} 
+
+#headerslogan{
+	float: right;
+}
+#headerlogo{
+
+	float: left;
+	position: absolute;
+	top:50;
+	left: 5px;
+	border: none;
+
+}
+
+#cupo{
+	position: fixed;
+	top: 350px;
+	left: -90px;
+}
+#cupo a img{
+border: none;	
+}
+
+
+.nav{
+float: left;
+width: 100%;
+background: #000033;
+height: 80px;
+}
+ul{
+list-style: none;
+padding: 0;
+margin: 0;
+position: absolute;
+}
+ul li{
+	float: left;
+	margin-top: 20px;
+}
+
+ul li a{
+	width: 150px;
+	color: white;
+	display: block;
+	text-decoration: none;
+	font-size: 15px;
+	text-align: center;
+	padding: 10px;
+	font-weight: bold;
+}
+
+a:hover{
+	background: #669900;
+}
+ul li ul{
+	background:#000033;
+
+}
+ul li ul li{
+	float: none;
+}
+ul li ul{
+	display: none;
+}
+ul li:hover ul{
+	display: block;
+}
+
+#no{
+	font-size: 300%; 
+	color: white;
+	position: absolute;
+	top: 70px;
+	left: 165px;
+}
+#nom{
+	font-size: 125%;
+	color: white;
+	font-family: shaded.ttf;
+	position: absolute;
+	top: 103px;
+	left: 550px;
+}
+
+#nadamas{
+	background-color: white;
+	padding: 3%;
+
+
+}
+
+#avi{
+background-color: black;
+color: white;
+text-align: center;
+padding: 20px;
+font-size: 200%;
+clear: right;
+}
+#a{
+	color: #efe5d0;
+}
+#aviso{
+border-color: orange;
+border-width: 9px;  
+color: white;
+text-align: center;
+padding: 10px;
+font-size: 70%;
+clear: right;
+}
+#ab{
+	color: black;
+}
+#video{
+	
+padding: 10px 500px 50px 500px;
+	
+
+}
+#re{
+	text-align: center;
+}
+#tele{
+
+}
+#correo{
+
+}
+#tele{
+	
+}
