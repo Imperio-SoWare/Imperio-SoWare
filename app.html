@@ -1,5 +1,119 @@
-<script>
-<!--
-document.write(unescape("%3Chtml%3E%0A%3Chead%3E%0A%3Cmeta%20charset%3D%22UTF-8%22/%3E%0A%3Ctitle%3EInicio%20SoWare%3C/title%3E%0A%3Clink%20rel%3D%22icon%22%20type%3D%22image/png%22%20href%3D%22min%5C1.png%22/%3E%0A%3Clink%20type%3D%22text/css%22%20rel%3D%22stylesheet%22%20href%3D%22css%5Cso.css%22/%3E%0A%3Cscript%20src%3D%22js/jquery.js%22%3E%3C/script%3E%0A%3Cscript%20src%3D%22js/jquery.dataTables.min.js%22%3E%3C/script%3E%0A%3C/head%3E%0A%3Cbody%3E%0A%3Cdiv%20id%3D%22header%22%3E%0A%3Cimg%20id%3D%22headerlogo%22src%3D%22min/1.png%22%20alt%3D%22imagen%20%22/%3E%0A%3Ch1%20id%3D%22no%22%3Eimperio%20soware%3C/h1%3E%0A%3C/div%3E%0A%3Cheader%3E%0A%09%3Cinput%20type%3D%22checkbox%22%20id%3D%22btn-menu%22%3E%0A%09%3Clabel%20for%3D%22btn-menu%22%3E%3Cimg%20src%3D%22min/12.png%22%3E%3C/label%3E%0A%09%3Cnav%20class%3D%22menu%22%3E%0A%09%09%3Cul%3E%0A%3Cli%3E%3Ca%20href%3D%22index.html%22%3EInicio%3C/a%3E%3C/li%3E%0A%3Cli%3E%3Ca%20href%3D%22app.html%22%3EAplicaciones%20Android%3C/a%3E%3C/li%3E%0A%3Cli%3E%3Ca%20href%3D%22pro.html%22%3EProgramas%20para%20PC%3C/a%3E%3C/li%3E%0A%3Cli%3E%3Ca%20href%3D%22peli.html%22%3EPel%EDculas%3C/a%3E%3C/li%3E%0A%3Cli%3E%3Ca%20href%3D%22otros.html%22%3EOtros%3C/a%3E%3C/li%3E%0A%3C/ul%3E%0A%09%3C/nav%3E%0A%3C/header%3E%0A%3Cdiv%20id%3D%22sobra%22%3E%3Ch1%20id%3D%22sub%22%3EAplicaciones%20para%20Android%3C/h1%3E%3C/div%3E%0A%3Cdiv%20id%3D%22headerrr%22%3E%0A%09%0A%20%20%20%20%3Cinput%20type%3D%22search%22%20id%3D%22input-search%22%20placeholder%3D%22Buscar...%22%3E%0A%20%20%20%20%0A%20%20%20%20%3Cdiv%20class%3D%22content-search%22%3E%0A%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22content-table%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctable%20id%3D%22table%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cthead%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%3E%3C/td%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/tr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/thead%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctbody%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%3E%3Ca%20href%3D%22%23EsFileExplrerPro%22%3EEs%20File%20Explrer%20pro%20%3C/a%3E%3C/td%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/tr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%3E%3Ca%20href%3D%22%23Punto%22%3EPunto%20de%20Acceso%20WiFi%3C/a%3E%3C/td%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/tr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%3E%3Ca%20href%3D%22%23Xender%22%3EXender%3C/a%3E%3C/td%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/tr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%3E%3Ca%20href%3D%22%23Airdroid%22%3EAirdroid%3C/a%3E%3C/td%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/tr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Ctd%3E%3Ca%20href%3D%22%23TeamViwer%22%3ETeamViwer%3C/a%3E%3C/td%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/tr%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C/tbody%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/table%3E%0A%20%20%20%20%20%20%20%20%3C/div%3E%0A%20%20%20%20%3C/div%3E%0A%3C/div%3E%0A%3Cscript%20src%3D%22js/search.js%22%3E%3C/script%3E%0A%0A%3Cdiv%20id%3D%22sobra%22%3E%3C/div%3E%0A%3Csection%20id%3D%22main%22%3E%0A%3CH1%20id%3D%22TemViwer%22%3ETemViwer%3C/H1%3E%0A%3CP%3EEs%20una%20aplicaci%F3n%20en%20donde%20podemos%20manipular%20una%20computadora%20o%20celular%20a%20larga%20distancia%20ya%20sea%20de%20computadora%20a%20computadora%20o%20de%20celular%20a%20computadora%20al%20igual%20Tambi%E9n%20podemos%20compartir%20archivos%20entre%20ellos%3C/P%3E%20%3Ca%20class%3D%22botona%22%20href%3D%22https%3A//play.google.com/store/apps/details%3Fid%3Dcom.teamviewer.teamviewer.market.mobile%22%20target%3D%22_blank%22%3EDescarga%20en%20la%20PlayStore%3C/a%3E%0A%3C/section%3E%0A%0A%0A%3Cdiv%20id%3D%22sobra%22%3E%3C/div%3E%0A%3Csection%20id%3D%22main%22%3E%0A%3CH1%20id%3D%22Airdroid%22%3EAirdroid%3C/H1%3E%0A%3CP%3EEs%20una%20aplicaci%F3n%20en%20donde%20podemos%20vincular%20nuestro%20celular%20a%20nuestra%20computadora%20y%20poder%20compartir%20Nuestra%20informaci%F3n%20sin%20necesidad%20de%20cables%20y%20seguro%2C%20Contiene%20muchas%20herramientas%20bastantes%20buenas%3C/P%3E%20%3Ca%20class%3D%22botona%22%20href%3D%22https%3A//play.google.com/store/apps/details%3Fid%3Dcom.sand.airdroid%26hl%3Des%22%20target%3D%22_blank%22%3EDescarga%20en%20la%20PlayStore%3C/a%3E%0A%3C/section%3E%0A%0A%0A%3Cdiv%20id%3D%22sobra%22%3E%3C/div%3E%0A%3Csection%20id%3D%22main%22%3E%0A%3CH1%20id%3D%22Xender%22%3EXender%3C/H1%3E%0A%3CP%3EEs%20una%20aplicaci%F3n%20en%20donde%20podemos%20vincular%20nuestro%20celular%20a%20nuestra%20computadora%20al%20igual%20con%20otro%20celular%20y%20poder%20compartir%20de%20dispositivo%20a%20dispositivo%20sin%20cables%3C/P%3E%3Ca%20class%3D%22botonm%22%20href%3D%22http%3A//dapalan.com/JhgL%22%20target%3D%22_blank%22%3EDescarga%20por%20Mega%3C/a%3E%3Cbr%3E%3Cbr%3E%3Ca%20class%3D%22boton%22%20href%3D%22http%3A//dapalan.com/Jh6Q%22%20target%3D%22_blank%22%3EDescarga%20por%20Mediafire%3C/a%3E%0A%3C/section%3E%0A%0A%3Cdiv%20id%3D%22sobra%22%3E%3C/div%3E%0A%3Csection%20id%3D%22main%22%3E%0A%3CH1%20id%3D%22Punto%22%3EPunto%20de%20acesso%20wifi%3C/H1%3E%0A%3CP%3EEs%20una%20aplicaci%F3n%20para%20android%20donde%20podras%20crear%20una%20red%20WiFi%20para%20el%20uso%20de%20compartir%20WiFi%20o%20no%20hacerlo%3C/P%3E%20%3Ca%20class%3D%22botonm%22%20href%3D%22http%3A//dapalan.com/JgRH%22%20target%3D%22_blank%22%3EDescarga%20por%20Mega%3C/a%3E%3Cbr%3E%3Cbr%3E%3Ca%20class%3D%22boton%22%20href%3D%22http%3A//dapalan.com/JgTv%22%20target%3D%22_blank%22%3EDescarga%20por%20Mediafire%3C/a%3E%0A%3C/section%3E%0A%0A%3Cdiv%20id%3D%22sobra%22%3E%3C/div%3E%0A%3Csection%20id%3D%22main%22%3E%0A%3CH1%20id%3D%22EsFileExplrerPro%22%3EEs%20File%20Explorer%20pro%20%3C/H1%3E%0A%3CP%3EEsta%20aplicaci%F3n%20es%20un%20gestor%20de%20archivos%20que%20contiene%20muchas%20funciones%20bastantes%20buenas%20aqu%ED%20algunos%20ejemplos%20hacer%20un%20FTP%20%28Protocolo%20de%20Transferencia%20de%20Ficheros%29%20Compartir%20archivos%20por%20red%20a%20cualquier%20dispositivo%20en%20la%20red%20navegar%20con%20usuario%20root%20etc%20%3C/P%3E%20%3Ca%20class%3D%22botonm%22%20href%3D%22http%3A//dapalan.com/Jg7G%22%20target%3D%22_blank%22%3EDescarga%20por%20Mega%3C/a%3E%3Cbr%3E%3Cbr%3E%3Ca%20class%3D%22boton%22%20href%3D%22http%3A//dapalan.com/Jg8S%22%20target%3D%22_blank%22%3EDescarga%20por%20Mediafire%3C/a%3E%0A%3C/section%3E%0A%3Cscript%20type%3D%22text/javascript%22%3E%0Avar%20infolinks_pid%20%3D%203158091%3B%0Avar%20infolinks_wsid%20%3D%200%3B%0A%3C/script%3E%0A%3Cscript%20type%3D%22text/javascript%22%20src%3D%22http%3A//resources.infolinks.com/js/infolinks_main.js%22%3E%3C/script%3E%0A%0A%0A%3C/body%3E%0A%3Cdiv%20id%3D%22footer%22%3E%0A%26copy%3B%202018%2C%20Imperio%20SoWare%0A%3Cbr%3E%0A%3Ch1%3EContacto%3C/h1%3E%0A%3Cp%3E%0A%3Cimg%20id%3D%22correo%22src%3D%22min%5Ccorreo.gif%22%20alt%3D%22correo%22/%3Eignaciogarciatellez2@gmail.com%3Cbr%3E%0A%3C/p%3E%0A%3C/div%3E%0A%3C/html%3E"));
-//-->
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Inicio SoWare</title>
+<link rel="icon" type="image/png" href="min\1.png"/>
+<link type="text/css" rel="stylesheet" href="css\so.css"/>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+<div id="header">
+<img id="headerlogo"src="min/1.png" alt="imagen "/>
+<h1 id="no">imperio soware</h1>
+</div>
+<header>
+	<input type="checkbox" id="btn-menu">
+	<label for="btn-menu"><img src="min/12.png"></label>
+	<nav class="menu">
+		<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="app.html">Aplicaciones Android</a></li>
+<li><a href="pro.html">Programas para PC</a></li>
+<li><a href="peli.html">Películas</a></li>
+<li><a href="otros.html">Otros</a></li>
+</ul>
+	</nav>
+</header>
+<div id="sobra"><h1 id="sub">Aplicaciones para Android</h1></div>
+<div id="headerrr">
+	
+    <input type="search" id="input-search" placeholder="Buscar...">
+    
+    <div class="content-search">
+        <div class="content-table">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td><a href="#EsFileExplrerPro">Es File Explrer pro </a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="#Punto">Punto de Acceso WiFi</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="#Xender">Xender</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="#Airdroid">Airdroid</a></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><a href="#TeamViwer">TeamViwer</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="pro.html#Atube">aTube Catcher</a></td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="js/search.js"></script>
+
+<div id="sobra"></div>
+<section id="main">
+<H1 id="TemViwer">TemViwer</H1>
+<P>Es una aplicación en donde podemos manipular una computadora o celular a larga distancia ya sea de computadora a computadora o de celular a computadora al igual También podemos compartir archivos entre ellos</P> <a class="botona" href="https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile" target="_blank">Descarga en la PlayStore</a>
+</section>
+
+
+<div id="sobra"></div>
+<section id="main">
+<H1 id="Airdroid">Airdroid</H1>
+<P>Es una aplicación en donde podemos vincular nuestro celular a nuestra computadora y poder compartir Nuestra información sin necesidad de cables y seguro, Contiene muchas herramientas bastantes buenas</P> <a class="botona" href="https://play.google.com/store/apps/details?id=com.sand.airdroid&hl=es" target="_blank">Descarga en la PlayStore</a>
+</section>
+
+
+<div id="sobra"></div>
+<section id="main">
+<H1 id="Xender">Xender</H1>
+<P>Es una aplicación en donde podemos vincular nuestro celular a nuestra computadora al igual con otro celular y poder compartir de dispositivo a dispositivo sin cables</P><a class="botonm" href="http://dapalan.com/JhgL" target="_blank">Descarga por Mega</a><br><br><a class="boton" href="http://dapalan.com/Jh6Q" target="_blank">Descarga por Mediafire</a>
+</section>
+
+<div id="sobra"></div>
+<section id="main">
+<H1 id="Punto">Punto de acesso wifi</H1>
+<P>Es una aplicación para android donde podras crear una red WiFi para el uso de compartir WiFi o no hacerlo</P> <a class="botonm" href="http://dapalan.com/JgRH" target="_blank">Descarga por Mega</a><br><br><a class="boton" href="http://dapalan.com/JgTv" target="_blank">Descarga por Mediafire</a>
+</section>
+
+<div id="sobra"></div>
+<section id="main">
+<H1 id="EsFileExplrerPro">Es File Explorer pro </H1>
+<P>Esta aplicación es un gestor de archivos que contiene muchas funciones bastantes buenas aquí algunos ejemplos hacer un FTP (Protocolo de Transferencia de Ficheros) Compartir archivos por red a cualquier dispositivo en la red navegar con usuario root etc </P> <a class="botonm" href="http://dapalan.com/Jg7G" target="_blank">Descarga por Mega</a><br><br><a class="boton" href="http://dapalan.com/Jg8S" target="_blank">Descarga por Mediafire</a>
+</section>
+
+<script type="text/javascript">
+var infolinks_pid = 3158091;
+var infolinks_wsid = 0;
 </script>
+<script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
+</body>
+<div id="footer">
+&copy; 2018, Imperio SoWare
+<br>
+<h1>Contacto</h1>
+<p>
+<img id="correo"src="min\correo.gif" alt="correo"/>ignaciogarciatellez2@gmail.com<br>
+</p>
+</div>
+</html>
