@@ -1,9 +1,10 @@
 
 body {
-background-color:#2C8A97;
+background-color:#599494;
 font-style: normal;
 font-family:Georgia, "Times New Roman", Times, serif;
 font-size: small;
+
 margin: 0px;
 
 }
@@ -30,7 +31,7 @@ margin: 0px;
 	line-height: 1em;
 }
 .boton:hover{
-	background: #2C8A97;
+	background: #599494;
 	color: white;
 }
 .botonm:hover{
@@ -53,7 +54,7 @@ margin: 0px;
 	color: white;
 }
 #sobra{
-	background-color: #2C8A97;
+	background-color: #599494;
 	padding: 1%;
 	text-align: center;
 }
@@ -76,6 +77,26 @@ border: 3px;
 border-style:solid;
 line-height:1;
 }
+
+aside {
+display: table-cell;
+vertical-align: top;
+background: #efe5d0 url(C:\Users\miguel\Desktop\imagenes4\background.gif) bottom right;
+font-size: 100%;
+padding: 5px;
+}
+
+
+section#drinks{
+display: table-cell;
+vertical-align: top;
+background: #efe5d0 ;
+font-size: 105%;
+	font-size: 105%;
+    padding: 30px;
+}
+
+
 #footer {
 background-color: #111111;
 color: #efe5d0;
@@ -87,16 +108,58 @@ margin: 100px 0px 0px 0px;
 }
 
 h1 {
-font-size: 130%;
-color: #954b4b;
+font-size: 20px;
+color: #A3331C;
 font-style: normal;
 
 }
+
+.slogan {
+color: #954b4b;
+
+}
+
+.beanheading {
+text-align: center;
+line-height: 1.8em;
+
+}
+
 a;link {
 color: #b76666;
 text-decoration: none;
 border-bottom: thin dotted #b76666;
 
+}
+
+
+
+#allcontent{
+width: 800px;
+padding-top: 5px;
+padding-bottom: 5px;
+background-color: #675c47;
+
+}
+
+#das{
+background: #efe5d0;
+vertical-align: top;
+font-size: 105%;
+padding: 15px;
+}
+
+div#talecontainer{
+	display: table;
+	border-spacing: 10px;
+} 
+div#talerow{
+	display: table;
+	
+} 
+
+#headerslogo{
+	float: right;
 }
 #headerlogo{
 
@@ -107,6 +170,19 @@ border-bottom: thin dotted #b76666;
 	border: none;
 
 }
+
+#cupo{
+	position: fixed;
+	top: 350px;
+	left: -90px;
+}
+#cupo a img{
+border: none;	
+}
+
+
+
+
 #no{
 	font-size: 600%; 
 	color: white;
@@ -127,6 +203,48 @@ border-bottom: thin dotted #b76666;
 	}
 }
 
+#nom{
+	font-size: 125%;
+	color: white;
+	font-family: shaded.ttf;
+	position: absolute;
+	top: 103px;
+	left: 550px;
+}
+
+#ser{
+color: black;
+border-bottom:none;
+font-weight:bold;
+}
+
+#imagen{
+	
+}
+
+#im1{
+	
+    position: center;
+    padding: 5px 90px 30px 170px;
+	
+}
+
+#im4{
+	
+    position: center;
+    padding: 5px 5px 5px 5px;
+	
+}
+#tele{
+
+}
+#correo{
+
+}
+#tele{
+	
+}
+
 @font-face{
 	font-family:ge;
 	src:url(fuentes/georgea.ttf), url(fuentes/georgea.otf);
@@ -145,6 +263,11 @@ border-bottom: thin dotted #b76666;
 @font-face{
 	font-family:dora;
 	src:url(fuentes/dora.ttf), url(fuentes/dora.otf);
+
+}
+@font-face{
+	font-family:cha;
+	src:url(fuentes/CaviarDreams.ttf), url(fuentes/CaviarDreams.otf);
 
 }
 
@@ -278,12 +401,12 @@ tbody tr td a:hover{
     background: black;
     padding: 1px;
     position: relative;
-    left: 50%;
+    left: 60%;
 
 }
 
 #input-search{
-    width: 120px;
+    width: 130px;
     height: 20px;
     font-size: 20px;
     text-indent: 10px;
@@ -338,6 +461,13 @@ tbody tr td a:hover{
 }
 p{
 	padding: 3px;
+	font-size: 17px;
+}
+
+h2{
+	font-style: normal;
+	font-size: 90%;
+	font-family: cha;
 }
 
 
