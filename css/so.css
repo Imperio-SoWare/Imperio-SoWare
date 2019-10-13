@@ -7,6 +7,16 @@ font-size: small;
 
 margin: 0px;
 
+}.botonv{
+	display: inline;
+	border: 2px;
+	padding: 4px;
+	margin: 2px;
+	text-decoration: none;
+	color: black;
+	font-family:ge;
+	font-size: 20px;
+	line-height: 1em;
 }
 .boton{
 	display: inline;
@@ -36,6 +46,10 @@ margin: 0px;
 }
 .botonm:hover{
 	background: #EC654F;
+	color: white;
+}
+.botonv:hover{
+	background: #35D460;
 	color: white;
 }
 .botona{
