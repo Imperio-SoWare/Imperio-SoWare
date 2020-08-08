@@ -35,15 +35,14 @@ margin: 0px;
 	padding: 4px;
 	margin: 2px;
 	text-decoration: none;
-	color: white;
-	background: black;
+	color: black;
 	font-family:ge;
 	font-size: 20px;
 	line-height: 1em;
 }
 .botos:hover{
-	background: white;
-	color: black;
+	background: black;
+	color: white;
 }
 .botonm{
 	display: inline;
