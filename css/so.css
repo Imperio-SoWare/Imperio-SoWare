@@ -29,21 +29,6 @@ margin: 0px;
 	font-size: 20px;
 	line-height: 1em;
 }
-.botos{
-	display: inline;
-	border: 2px;
-	padding: 4px;
-	margin: 2px;
-	text-decoration: none;
-	color: black;
-	font-family:ge;
-	font-size: 20px;
-	line-height: 1em;
-}
-.botos:hover{
-	background: black;
-	color: white;
-}
 .botonm{
 	display: inline;
 	border: 2px;
