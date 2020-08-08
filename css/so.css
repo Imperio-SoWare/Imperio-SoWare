@@ -29,6 +29,22 @@ margin: 0px;
 	font-size: 20px;
 	line-height: 1em;
 }
+.botos{
+	display: inline;
+	border: 2px;
+	padding: 4px;
+	margin: 2px;
+	text-decoration: none;
+	color: white;
+	background: #599494;
+	font-family:ge;
+	font-size: 20px;
+	line-height: 1em;
+}
+.botos:hover{
+	background: white;
+	color: #599494;
+}
 .botonm{
 	display: inline;
 	border: 2px;
@@ -494,4 +510,7 @@ a{
 	position: absolute;
 	text-align: center;
 	left: 40%; 	
+}
+iframe{
+	display: block;
 }
