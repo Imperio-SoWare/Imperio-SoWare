@@ -36,14 +36,14 @@ margin: 0px;
 	margin: 2px;
 	text-decoration: none;
 	color: white;
-	background: #599494;
+	background: black;
 	font-family:ge;
 	font-size: 20px;
 	line-height: 1em;
 }
 .botos:hover{
 	background: white;
-	color: #599494;
+	color: black;
 }
 .botonm{
 	display: inline;
